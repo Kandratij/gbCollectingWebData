@@ -27,6 +27,7 @@ def format_date(date_str):
         frm_date_str = frm_date_str.replace('Сегодня', f'{dat.day} {months[dat.month]}' )
     return frm_date_str
 
+
 s = Service('./chromedriver')
 
 driver = webdriver.Chrome(service=s)
